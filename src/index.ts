@@ -6,6 +6,7 @@ import compression from "compression";
 import cors from "cors";
 
 const app = express();
+const port = process.env.PORT || 8080;
 
 app.use(
   cors({
@@ -17,3 +18,5 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 const server = http.createServer(app);
+
+server.listen(port, () => console.log(`Server is running on port ${port}`));
