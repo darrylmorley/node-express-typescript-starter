@@ -41,7 +41,9 @@ npm run start
 
 ## API Endpoints
 
-## Define your API endpoints and routes in the index.ts file as needed for your application.
+Define your API endpoints and routes in the index.ts file as needed for your application.
+
+---
 
 ## Contributing
 
